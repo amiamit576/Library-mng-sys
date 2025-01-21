@@ -1,0 +1,22 @@
+# Ignore all build files and directories
+build/
+dist/
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Ignore all minified files
+*.min.js
+
+# Specific files
+public/assets/large-file.js
+scripts/old-script.js
+
+# Ignore all JSON files in a specific directory
+data/*.json
